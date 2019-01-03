@@ -1,5 +1,7 @@
 package com.timbuchalka;
 
+import java.io.Console;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -27,9 +29,16 @@ public class Main {
         System.out.println( last);
 
 //3.7.1
-        Scanner scanner = new Scanner(System.in);
-        String  name = scanner.next(); // bez spacji kutasie ;D
-        scanner.next();
-        System.out.println( name);
+//        Scanner scanner = new Scanner(System.in);
+//        String  name = scanner.next(); // bez spacji kutasie ;D
+//        scanner.next();
+//        System.out.println( name);
+
+//Console cos = System.console();
+//String username = cos.readLine("Username : ");
+//char[] passowrd = cos.readPassword("Hasło :");
+
+System.out.printf("%tc", new Date()); // akutalna Data ;> 
+
     }
 }
