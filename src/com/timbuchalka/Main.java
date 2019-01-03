@@ -1,5 +1,7 @@
 package com.timbuchalka;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,6 +26,10 @@ public class Main {
         char last = Mamamija.charAt(4);
         System.out.println( last);
 
-
+//3.7.1
+        Scanner scanner = new Scanner(System.in);
+        String  name = scanner.next(); // bez spacji kutasie ;D
+        scanner.next();
+        System.out.println( name);
     }
 }
